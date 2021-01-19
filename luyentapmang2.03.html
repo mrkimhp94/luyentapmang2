@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let a=  [ 'c', 's', 'c', 2, 6, 1 ];
+let index =0 ;
+let result=[];
+for (let i = 0; i < a.length; i++) {
+    if (typeof a[i] === 'number'){
+        result.push(a[i]);
+        index=index+1;
+    }
+}
+document.write("Có "+index + " số " +" là " + result)
+</script>
+</body>
+</html>
